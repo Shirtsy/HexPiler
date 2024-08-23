@@ -10,7 +10,7 @@
 )
 
 // Read given index from registry
-// $read(int) -> stack_iota
+// $read(int) -> iota
 #def(read)(
     Muninn's Reflection
     Consideration: @num(<1>)
@@ -18,7 +18,7 @@
 )
 
 // Write to index in registry
-// $write(int)(stack_iota) -> void
+// $write(int)(iota) -> void
 #def(write)(
     Muninn's Reflection
     Consideration: @num(<1>)
@@ -26,7 +26,7 @@
     Surgeon's Exaltation
 )
 
-// $raycast_mantra -> stack_iota(vec)
+// $raycast_mantra -> iota(vec)
 #def(raycast_mantra)(
     Mind's Reflection
     Compass' Purification
@@ -35,7 +35,7 @@
     Archer's Distillation
 )
 
-// $explode(stack_iota(vec))(stack_iota(num))
+// $explode(iota(vec))(iota(num))
 #def(explosion)(
     <1>
     <2>
